@@ -1,0 +1,29 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 60px 0;
+}
+.container > .row {
+    width: 800px;
+    background-color: pink;
+    margin: 0 calc(50%-400px);
+}
+.container > .row-short {
+    width: 600px;
+    background-color: yellow;
+}
+@media (max-width:440px) {
+    .container {
+        padding-right: 20px;
+        padding-left: 20p
+    }
+
+    .container > .row,
+    .container > .row-short{
+        width: 800px;
+        background-color: orange;
+        margin: 0 calc(50%-400px);
+    }
+}
