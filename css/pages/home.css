@@ -5,3 +5,25 @@
 /* 3rd-party */
 /* components */
 /* CUSTOM STYLE BELOW THIS COMMENT */
+
+.logo {
+    width: 3rem;
+}
+.main title{
+    font-size: 4,5rem;
+}
+@media (max-width:68rem){
+    .container>.row {
+        --width 38rem;
+    }
+}
+@media (max-width:68rem){
+    .container>.row {
+        --width 38rem;
+    }
+}
+@media (max-width:68rem){
+    .container>.row {
+        --width 38rem;
+    }
+}
