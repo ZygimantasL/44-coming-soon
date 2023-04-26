@@ -1,6 +1,9 @@
 /* base */
 @import "../base/base.css";
 @import "../base/layout.css";
+@import "../components/button.css";
+@import "../components/clock.css";
+@import "../components/progress-bar.css";
 
 /* 3rd-party */
 /* components */

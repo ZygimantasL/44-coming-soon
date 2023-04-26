@@ -1,0 +1,27 @@
+.btn {
+    font-family: inherit;
+    padding: 1rem;
+    background-color: var(--colorsecond);
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    line-height: 1em;
+    color: #fff;
+    border-radius: 0.3rem;
+    border: none;
+    cursor: crosshair;
+    text-decoration: none;
+    box-shadow: 0 0.2em 0.4em #0005;
+    user-select: none;
+    text-align: center;
+}
+.btn:hover{
+    background-color: var(--dark-colorsecond);
+    box-shadow: #0009;
+}
+
+.btn.btn-circle {
+    height: 3em;
+    width: 3em;
+    border-radius: 50%;
+    font-family: 'FontAwesome';
+}
